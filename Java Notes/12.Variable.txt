@@ -1,0 +1,30 @@
+Variables:
+	Used to store values/data
+	Name of the memory location
+
+Types of the variables:
+1.Local Variable
+2.Global Variable/ Instance Variable
+3.Static Variable
+
+1.Local Variable:
+	It is declared inside a Method , block or constructor
+	Local variable active when control enters the method or block  and deactivate when control exit the method or block.
+	Scope of the local variables is within the method, Block, and constructor
+	Can’t able to mention the access specifier 
+
+2.Global Variable/ Instance Variable:
+	It is declared outside the method, block and constructor and inside the class.
+	It activates when the object is created and de activate when object is destroyed 
+	Scope of the global variable is throughout the class
+	Can able to mention the access specifier
+
+3.Static Variable:
+	It is declared outside the method, block and constructor and inside the class.
+	It activates when class is created and de activate when class is destroyed 
+	Scope of the global variable is throughout the class
+	Can able to mention the access specifier
+
+	
+
+

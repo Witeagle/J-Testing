@@ -1,0 +1,44 @@
+Array:-
+	Array is used to store multiple values of similar data types in a single reference or variable.
+	Array is an index based one.
+	Index starts with 0 and ends with n-1, when length of an array is n
+	Array is fixed in size
+
+Syntax   data type ref[] = new datatype [size];
+Example int num[] = new int[5];
+
+
+		10		20		30		40		55
+Pos		0		1		2		3		4			
+	  Num[0]  	    num[1]      num[2] 	    num[3] 	    num[4]
+
+
+
+int num[] ={20, 40, 50, 60, 70};
+String s[] = {“Saranya”, “Praveen”, “Sundar”,”Vignesh”};
+
+Array disadvantage:
+It accept only similar data type
+Memory wastage is high in Array, because, Memory allocated in compile time
+
+
+Enhanced for loop:
+	Syntax – for(datatype new refName : value stored variable){
+		   Sysout(new Ref Name)
+				}
+
+
+Normal Loop								Enhanced loop
+Works based on index						based on value
+Able to apply condition						can’t able to apply condition
+Able to set the limit of execution				unable to set the limit of execution
+Print in forward and reverse order				print only in forward order
+Chance of exception						no chance of exception
+
+For (int i=2;i<6;i++){						for(int i: a){
+Logic									logic
+}	 									}
+
+
+
+	

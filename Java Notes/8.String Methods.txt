@@ -1,0 +1,269 @@
+STRING:
+	String is an pre defind class presented in java.lang package
+	String is defind as collection of cheractor enclosed within the  “ ”
+	Default value of string is null
+	String is an index based one – (Position)
+	Index starts with 0 and ends with n-1
+	Length of the string is starts with 1 and ends with n
+
+
+Eg: “java 1@”  ------------Length is = 7  ----------- Index is 0-6
+			n=7
+eg		j	a	v	a	 	1	@
+index		0	1	2	3	4	5	6	
+length	1	2	3	4	5	6	7
+
+
+String syntax:
+String refName;
+refName = “Java 1@”;
+
+String Methods:
+1.	charAt(index) - It is used to find the particular character by using index
+2.	toUpperCase() - To convert String to its Upper Case
+3.	toLowerCase() - To convert String to its Lower Case
+4.	isEmpty() – to check whether the String is empty or not
+5.	startsWith(“value”) – To check whether the string is starts with particular value or not
+6.	endsWith("value") - To check whether the string is ends with particular value or not
+7.	contains(“value”) – To check whether the string contains the particular value or not 
+8.	length() – to find the length of the given string
+9.	replace(old,new) – to replace one char or word into another char or word
+10.	replaceAll(old,new) – to replace all the occurrence of one char or word into another char or word
+11.	indexOf(value) – it is used to find the index of the particular value (First Occurrence)
+12.	lastIndexOf(value) - it is used to find the last index of the particular value (last Occurrence)
+
+13.	trim() – to remove the spaces present before and after the words
+14.	subString(start Index) – to print the value starts with particular index value
+15.	subString(start Index, end Index) – to start with and ends with the particular index value
+16.	equals() – to compare 2 strings and  is case sensitive (Return type :Boolean)
+17.	equalsIsIgnoreCase() - to compare 2 strings and it does not care about the case sensitive (Return type :Boolean)
+
+
+ASCII Value:
+
+1.  A to Z   = 65 to 90
+A	B	C	D	………..	Z
+65	66	67	68	…………	90
+
+2. a to z   = 97 to 122
+A	b	c	d	…………. Z
+97	98	99	100	………….	122
+
+3. 0-9  = 48 to 57
+0	1	2	3	………….9
+48	49	50	51	………….57
+
+4. Space = 32
+
+
+Task:
+QUESTION 1:
+-----------
+Description: Find the length of the below string
+   String 1: InformationTechnology
+   String 2: SeleniumAutomationtool
+   String 3: Virat Kohli
+   String 4: j a v a p r o g r a m
+   String 5: 9876543213
+
+QUESTION 2:
+-----------
+Description: Find the particular character index  in the given string
+   String 1: InformationTechnology 
+             Find the last index of o
+
+   String 2: SeleniumAutomationtool 
+             Find the first index of o
+
+   String 3: Virat Kohli
+             Find the index of h
+
+   String 4: j a v a p r o g r a m 
+             Find the last index of  (emptyspace)
+
+   String 5: 9876543213
+             Find the index of 8
+
+Question 3:
+-----------
+Description: Find the particular character in the given string
+   String 1: InformationTechnology 
+             print the character h 
+
+   String 2: SeleniumAutomationtool 
+             print the character o
+
+   String 3: Virat Kohli
+             print the character l
+
+   String 4: j a v a p r o g r a m 
+             print the character p
+
+   String 5: 9095484678
+             print the character 7
+            
+QUESTION 4:
+-----------
+Description : Get two input from user and check the equality
+            : print in the output whether it is Equal or not
+Example:
+--------
+Input : 
+String 1 : Java
+String 2 : Java
+
+Example:
+---------
+Input : 
+String 1 : Java
+String 2 : java
+
+Example:
+---------
+Input : 
+String 1 : Information Technology 
+String 2 : InformationTechnology .
+
+Example(use equalsIgnoreCase):
+---------
+Input : 
+String 1 : Java
+String 2 : java
+
+Example(use equalsIgnoreCase) :
+---------
+Input : 
+String 1 : Saraa
+String 2 : saraa
+
+
+QUESTION 5:
+------------
+QUESTION 5.1:
+------------
+Description: Get the email id from the user and verify '@' is present or not?
+
+Example:
+------------
+Input  = viratkohli18@gmail.com
+Output = valid email id
+
+QUESTION 5.2:
+------------
+Description:Get the address from the user and verify "pincode" is present or not?
+
+Example:
+------------
+Input  = 5-35-2a,venkatesh nivas,Chennai
+Output = invalid address
+
+QUESTION 5.3:
+------------
+Description:Get the email from the user and verify '@' is present or not and return true or false?
+
+Example:
+------------
+Input  = Nishakerala24@gmail.com
+Output = True/False 
+
+UESTION 5.4:
+------------
+Description:Get the phonenumber from the user and verify any character is present or not .
+            If character is present return invalid number
+
+Example:
+------------
+Input  = 90954a6o78
+Output = False
+
+
+QUESTION 6:
+-----------
+Description:Get the phonenumber from the user  .
+            If phonenumber exceeds greater than 10 then return invalid number
+
+Example:
+--------
+Input  = 89034256972365
+output = invalid
+Example 2:
+---------
+Input  = 9095484678
+Output = valid 
+
+
+QUESTION 7:
+------------
+QUESTION 7.1:
+-------------
+Description:Given string as "Welcome to java class" and replace java into sql.
+
+Example:
+-----------
+Input  = Welcome to class java
+output = Welcome to class sql
+
+QUESTION 7.2:
+-------------
+Description:Given string as "Salman Khan"and replace Salman into Aamir.
+
+Example:
+-----------
+Input  = Salman Khan
+Output = Aamir Khan
+
+QUESTION 7.3:
+-------------
+Description: Given String as "Welcome to java class" and Replace space into '#'
+
+Example:
+----------
+input:Welcome to java class
+output:Welcome#to#java#class
+
+QUESTION 7.4:
+------------
+Description:Get the email from the user and verify "gmail" is present or not.
+            If present replace that gmail into yahoo
+
+Example:
+------------
+Input  = viratkohli34@gmail.com
+Output = viratkohli34@yahoo.com
+
+QUESTION 7.5:
+------------
+Description:Get the address from the user and verify "pincode" is present or not.
+            If present replce the pincode with empty space
+
+Example:
+------------
+Input  = 5-35-2a,venkatesh nivas,Chennai,pincode-600078
+Output = 5-35-2a,venkatesh nivas,Chennai 
+
+
+QUESTION 8
+----------
+QUESTION 8.1
+-------------
+Description:Get the input from the user and print that word in lowercase
+
+Example:
+--------
+Input  = SARANYA
+Output = saranya
+
+QUESTION 8.2
+-------------
+Description:Get the input from the user and print that word in Uppercase
+
+Example:
+--------
+Input  = saranya
+Output = SARANYA
+
+
+
+
+
+

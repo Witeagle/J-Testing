@@ -1,0 +1,41 @@
+Exception:-
+It is like Unexpected Event, Whenever the exception occur in the program, The program will terminate abnormally or that line itself.
+
+Types of exception:
+1.Checked
+2.Un checked
+
+
+1.Un checked exception: (Run time):
+Whenever the exception will occur in runtime, it is called Run time Exception
+
+1.Arithmatic Exception
+2.Null Pointer Exception
+3.Input mismatch Exception
+4.Array Index out of bounce exception - Array
+5.String index out of Bounce Exception- String Value
+6.Index Out of bounce exception - List
+7.Number format Exception
+
+
+Checked Exception (Compile Time exception)
+Whenever the exception will occur in compile time, It is called compile time exception
+1.File not found exception
+2.IO exception
+3.Sql Exception
+4.Class not found exception
+
+Exception Handling:
+1.Try:- Whenever the exception will occur, we will use try block.
+2.Catch:- Catch block is used to catch the exception and give the solution
+3.Finally:- Finally is a block it will always execute, It does not consider whether the exception is occur or not or handled or not
+
+Combination:
+1.try, Catch, finally
+2.try, multiple catch
+3.try, finally
+
+
+****Exception is a super class of all exceptions****
+
+

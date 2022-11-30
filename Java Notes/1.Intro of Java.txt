@@ -1,0 +1,43 @@
+Features of JAVA:
+1. Simple programming Language
+2. Easy to Run and Debug (Error finding /Rectification) 
+3. Free ware, Open source (Source code is available in web, anyone can make use of it)
+4. Platform Independent – Single code written is capable of running in all the OS
+5. Multithreading – We can able to run Multiple application at a time -- Parallel Execution
+6. Portable 
+7. More secure 
+
+
+JDK – Java Development Kit
+(Whenever I want to develop or run a program in Java, JDK is essential)
+JDK – JRE+JRM
+JRE – Java Run time environment - It contain Pre defined files and library
+JVM – Java Virtual Machine  It is used for memory allocation
+
+Tools: -  (IDE- Integrated Development Environment)
+Notepad – Time consumption will be High
+Eclipse – User friendly and free tool
+Jdeveloper – Oracle – Paid tool
+RAD - IBM
+
+
+
+OOPS – Object Oriented Programming Structure:
+Java – OOPS follows programming language.
+
+OOPS – It is a method of implementation in which program is organized as collection of Objects, Class and Methods.
+1. Object
+2. Method
+3. Class
+4. Inheritance 
+5. Abstraction
+6. Polymorphism
+7. Encapsulation
+
+
+Project -> Package -> Class -> Method -> Object
+Project – Collection of Package
+Package – Collection of Classes
+Class – Collection of methods, Variables and Objects
+Method – Set of actions / Logics will be performed 
+Object – It is used to call method, Run time memory allocation

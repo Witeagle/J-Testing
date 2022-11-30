@@ -1,0 +1,58 @@
+Scanner – Predefined Class
+  used to Get the input from the user at the run time
+  It is present in java.util package –
+  If we need to use Scanner class properties we need to import java.util package.
+Syntax:
+	Scanners ObjName = new Scanner (System.in); 
+	ObjName.methodName();
+
+Scanner Methods:
+nextByte();
+nextShort();
+nextInt();
+nextLong();
+nextFloat();
+nextDouble();
+nextBoolean();
+
+
+
+To get String Value:
+
+next(); - It will ignore after the space values
+nextLine(); - It will accept Space
+
+
+To get the single character – next().charAt(0);
+We need to use nextLine(); method 1st and next(); method 2nd to get the String Input
+If we used next(); method 1st nextLine(); method 2nd will get errors
+In this case we have to create another separate object reference to nextLine(); method will call that method using separate object
+
+
+QUESTION 1:
+-------------
+Description: Using Scanner class get the below details
+             studentId
+             studentName
+             Mark1
+             Mark2
+             Mark3
+             Mark4
+             Mark5
+          
+
+QUESTION 2:
+------------
+Description: Using Scanner class get the below details
+             StudentId
+             StudentName
+             StudentEmail
+             StudentPhoneno
+             StudentDept
+             StudentGender
+             StudentCity
+
+
+
+
+

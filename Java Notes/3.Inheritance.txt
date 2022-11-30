@@ -1,0 +1,139 @@
+Inheritance:
+------------
+      	We can access one class property from another class by using “extends” Keyword without creating multiple Objects.
+
+Advantage:	
+	Object creation is reduced
+	Memory wastage is reduced
+	Re-usable code purpose
+
+Types:
+	1.Single Inheritance
+	2.Multiple Inheritance
+	3.Multilevel Inheritance
+	4.Hierarchal Inheritance
+	5.Hybrid Inheritance
+-----------------------------------------------------------------------------------------
+1.Single Inheritance:
+One parent going to support a single child (Or) one child is accessing one parent.
+Class 1: Parent
+Class 2: Child
+Child extends Parent
+------------------------------------------------------------------------------------------
+2.Multiple Inheritance
+More than one parent going to support a single Child Parallelly 
+“Multiple Inheritance won’t work in Java “ Due to priority problem and syntax error and it will show Compile time error.
+We can achieve Multiple Inheritance by using “Interface”.
+
+Class 1: GrandParent
+Class 2: Parent
+Class 3: Child
+Child extends Parent, GrandParent
+
+-------------------------------------------------------------------------------------------
+3.Multilevel Inheritance
+More than one parent going to support a single child in a chain structure
+Class 1: GrandParent
+Class 2: Parent
+Class 3: Child
+Eg:
+Parent extend GrandParent;
+Child extends Parent
+-------------------------------------------------------------------------------------------
+4.Hierarchal Inheritance
+One parent is going to support more than one child.
+Class 1: Parent
+Class 2: Child1
+Class 3: Child2
+Eg:-
+Child1 extends Parent
+Child2 extends Parent
+
+--------------------------------------------------------------------------------------------
+5.Hybrid Inheritance
+Combination of Inheritance.
+
+
+
+Task:
+QUESTION 1:
+-----------
+     Project   :Computer
+     Class     :Computer
+     Methods   :computerModel()
+
+     Class     :Desktop
+     Methods   :desktopSize()
+
+Description:
+create above 2 class and call all your class methods into the Desktop using single inheritance.
+
+QUESTION 2:
+-----------
+     Project   :LanguageDetails
+     Package   :org.lang
+     Class     :LanguageInfo
+     Methods   :tamilLanguage(),englishLanguage(),hindiLanguage()
+
+     Class     :StateDetails
+     Methods   :southIndia(),northIndia()
+
+Description:
+create above 2 class and call all your class methods into the LanguageInfo using single inheritance.
+
+
+QUESTION 3:
+------------
+     package name: org.all
+     Project name: LanguageDetails
+     Class name  : Languageclass
+     Methods     : alllanguage
+
+     package name: org.tamil
+     Project name: LanguageDetails
+     Class name  : Tamil
+     Methods     : tamillanguage
+  
+     package name: org.english
+     Project name: LanguageDetails
+     Class name  : English
+     Methods     : englishlanguage
+
+     package name: org.telgu
+     Project name: LanguageDetails
+     Class name  : Telgu
+     Methods     : telgulanguage
+
+Description:
+create above 4 packages and call all your class methods into the Languageclass using multilevel inheritance.
+
+
+QUESTION 4:
+------------
+     package name: org.india
+     Project name: SouthIndia
+     Class name  : India
+     Methods     : india
+
+     package name: org.tamilnadu
+     Project name: SouthIndia
+     Class name  : TamiladuN
+     Methods     : tamillanguage
+  
+     package name: org.kerala
+     Project name: SouthIndia
+     Class name  : kerala
+     Methods     : malayalam
+
+     package name: org.andrapradesh
+     Project name: SouthIndia
+     Class name  : AndhraPradesh
+     Methods     : telugu
+
+Description:
+create above 4 packages and call all your class methods into the India using multilevel inheritance.
+
+
+
+
+

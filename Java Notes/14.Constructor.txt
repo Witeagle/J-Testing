@@ -1,0 +1,43 @@
+Constructor:
+It is a Special method, When the object is created the Constructor will invoke automatically.
+
+Rule:
+1.Class name and constructor name should be same
+2.Constructor should not have return type.
+
+Types:
+Parameterized 
+Non-Parameterized
+
+
+Method:							Constructor:
+Create object and call a method			Object creation is enough
+ObjName.methodName
+
+Class name and method name may same or 		Class name and Constructor name must be same
+different
+
+Contain return type					Does not contain return type
+
+
+
+Constructor chaining:
+To reduce the number of object creation
+The process of calling one constructor from another with respect to current object creation is called constructor chaining
+
+Types:
+this();
+super();
+
+this():
+It is used to invoke class level constructor
+1st line of constructor
+
+super();
+It is used to invoke parent level constructor
+1st line of constructor
+
+
+
+
+

@@ -1,0 +1,39 @@
+File Operator:
+
+File - Class
+
+File related operations are called File Operator.
+Using File Operation we can create , read, Write and update in a file
+File is a predefined class in java.io package.
+
+
+Methods:
+mkdir() – To create main folder
+mkdirs() – To create sub folder
+createNewFile() – To create text or doc file
+isFile() – whether we can check file or not
+isDirectory() – we can check whether folder or not
+canRead() – Whether we can read the file , folder or not
+canWrite() – whether we can write into the file or not
+canExecute() – Whether we can execute the file or not
+isHidden() – whether we can check file or folder is hidden or not
+exits() – check whether the file is existing or not
+delete() – to delete the file or folder
+listFiles() – by passing path location to check what are all the files and folders present in that folder (With path)
+list() – by passing path location to check what are all the files and folders present in that folder (Without  path)
+
+
+
+
+File Utils (C): Predefined class
+write()  - static method 
+readLines() – Static Method
+
+download  common io – jar   (2.7 or 2.8 or 2.4) versions
+copy and paste the extended jar file into the project
+Right click the jar file  Build path  Click add to build path
+
+
+
+
+

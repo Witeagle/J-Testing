@@ -1,0 +1,93 @@
+Polymorphism
+-Task implemented in many ways / Executing methods in more than one forms
+Poly – Many
+Morphism – forms
+Types 
+1.Method Overloading (Compile time)
+2.Method Over ridding (Run Time)
+ 
+1.Method Overloading (Compile time polymorphism):
+	Decision of which methods to be call
+Same Class
+Same method name
+Different arguments -------> 1. Based on Data Type
+			   	     2. Based on datatype count
+			 		3. Based on Datatype order	
+
+2. Method Over ridding (Run time Polymorphism):
+	Whenever the parent logic is not feasible, we have to override the same method
+with same arguments in another class and we can change the logic.
+
+Different Class
+Same method
+Same arguments
+
+
+Task:
+QUESTION 1:
+------------
+     Project   :EmployeeDetails
+     Package   :org.emp
+     Class     :Employee 
+     Methods   :empId()
+
+Description
+You have to overload the method empId() based on different datatype in arguments.
+
+QUESTION 2:
+------------
+   Project     :CompanyDetails
+   Package     :org.company
+   Class       :CompanyInfo
+   Methods     :companyName()
+
+Description
+You have to overload the method companyName() based on different Count of arguments.
+
+QUESTION 3:
+------------
+   Project     :MyPhone
+   Package     :org.phone
+   Class       :Phone
+   Methods     :phoneInfo()
+
+Description
+You have to overload the method phoneInfo() based on order,type,Count.
+
+QUESTION 4:
+------------
+     Project   :BankDetails
+     Package   :org.bank
+     Class     :BankInfo
+     Methods   :saving(),fixed(),deposit()
+
+     Class     :AxisBank
+     Methods   :deposit()
+
+Description:
+You have to override the method deposit in AxisBank.
+
+QUESTION 5:
+------------
+     Project   :UniversityInformation
+     Package   :org.univ
+     Class     :University
+     Methods   :ug(),pg()
+
+     Class     :College
+     Methods   :ug(),pg()
+
+Description:
+ug(),pg() is just a templete in University class and You have to override the method ug(),pg() in College class.
+
+
+
+
+
+
+
+
+
+ 
+
+

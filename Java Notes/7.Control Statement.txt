@@ -1,0 +1,187 @@
+Control Statement:
+1.Conditional Statement
+2.Looping Statement
+3.Jump Statement
+
+	<   Lesser than 
+	>   Greater than
+	<= lesser than or Equals to
+	>= Greater than or Equals to
+	== Equals to
+	!= Not Equals to
+
+
+1.Conditional Statement – Based on a particular condition, a set of instruction is going to done.
+	1. if
+	2. if else
+	3.nested if
+	4.ladder if 
+
+1.if: 	
+Syntax – if(cond) {				cond true ---- Logic 1
+		Logic 1				cond False ---skips the logic 1	
+		}
+
+
+
+
+2. if else
+Syntax – if(cond) {				cond true --- Logic 1
+		Logic 1				cond false ---  logic 2	
+		}
+	else{	
+		logic 2			
+		}
+
+
+
+To check more than one condition: (By using Operators) 
+	1.AND (& &)
+	2.OR (||)
+1.AND -  Both the condition true means it will enter into the if block otherwise it will enter into else block.
+
+Condition 1		Condition 2	Result
+   T			  T		  T (if)
+   T			  F		  F (else)
+   F			  T		  F (else)
+   F			  F		  F (else)
+
+Logical AND (& &): Checks the first condition, If it is false, It will directly executes the else block (Does not check second condition)
+
+Bitwise AND: (&) : Checks the both condition and executes corresponding block
+
+
+
+2.OR (||) -  Any One condition true means it will enter into the if block 
+
+Condition 1		Condition 2	Result
+   T			  T		  T (if)
+   T			  F		  T (if)
+   F			  T		  T (if)
+   F			  F		  F (else)
+
+Logical OR (| |): Checks the first condition, If it is true, It will directly executes the if block (Does not check second condition)
+
+Bitwise OR (|):: Checks the both condition and executes corresponding block.
+
+
+3.Nested If:
+Syntax – if(Cond 1) {				
+		If(Cond 2){	
+			Logic				
+		}			
+		}
+
+
+4.Ladder if:
+Syntax – if(Cond 1) {		
+			Logic 1
+		}		
+		else if(Cond 2){	
+			Logic 2				
+		}
+		else if(Cond 3){	
+			Logic 3			
+		}
+	----------------------------------		
+else {
+		Logic n
+		}
+
+
+
+
+-------------------------------------------------------------------------------------------------------------
+
+2.Looping statement: - For repeating actions
+	1.for
+	2.while
+	3.do while
+	
+	Repeatedly executing the same set of statement again and again.
+
+
+1.for:		 1		2	   4
+Syntax – for(Initialization; condition; inc/dec) {
+		  3	
+		Logic	
+			}
+Increment ----> i++ 
+Decrement ---> i--		
+
+
+Nested for loop:  1		2	        8  
+Syntax – for(Initialization; condition; inc/dec) {
+			3			  4		6
+		for(Initialization; condition; inc/dec) {
+					   5
+					logic 1
+			}
+		   7
+		Logic	
+			}
+
+
+
+2.While Loop: (Entry chcek loop)
+Syntax : 
+    Initialization; 
+	While (Cond) {
+		logic
+		inc / dec
+		}
+
+
+Do While Loop (Exit check loop)
+Syntax : 
+    Initialization; 
+	   do {
+		logic
+		inc / dec
+		}While (Cond)
+
+
+-----------------------------------------------------
+Jump statement:
+
+1.Break - used to terminate the loop
+2.continue - Used to skip the particular iteration
+3.system.exit(0); - used to terminate the whole program.
+
+
+
+
+QUESTION 1:
+-----------
+Description: Write Java program to allow the user to input his/her age.     
+             Then the program will show if the person is eligible to vote.
+             A person who is eligible to vote must be older than or equal 1 to 18 years old.
+Example:
+--------
+Input  = 10
+Output = print not eligible.
+
+QUESTION 2:
+-----------
+Description: Write a program to find even or odd number
+
+Example:
+---------
+Input  = 10
+Output = Even
+
+QUESTION 3:
+------------
+Description: Write a program to print even number from 1 to 100 
+
+Example:
+---------
+Output = 2,4,....100
+
+QUESTION 4:
+------------
+Description: Write a program to print Odd number from 1 to 100 
+
+Example:
+---------
+Output = 1,3, 5, ........99
